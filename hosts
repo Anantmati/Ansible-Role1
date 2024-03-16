@@ -1,6 +1,9 @@
 [dev]
-172.31.22.111
+devserver
+[uat]
+[pre-prod]
 [prod]
-172.31.26.87
+prodserver
+
 [all:vars]
-ansible_user=ec2-user
+ansible_user=dvsadmin
